@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Pet Facts</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>User Facts</h1>
+        <div class="callout">
+            If you have some fun animal facts you'd like to share, please submit them! We may use them in the future.
+        </div>
+        <div class="facts-container">
+            <form action="/facts" method="POST">
+                <label for="submitter"><H2>Name</H2></label>
+                <input name="submitter" type="text">
+                <br/>
+                <label for="fact"><H2>Fact</H2></label>
+                <textarea name="fact"></textarea>
+                <br/>
+                <input type="submit" value="Submit the Fact">
+            </form>
+        </div>
+        <a href="/pets">⟨　Go back</a>
+    </div>
+</body>
+</html>

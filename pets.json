@@ -14,5 +14,10 @@
         "pet_name": "Max",
         "pet_photo": "karsten-winegeart-5PVXkqt2s9k-unsplash.jpg",
         "pet_fact": "A dog’s nose print is unique, much like a person’s fingerprint"
+    },{   
+        "pet_id": 4,
+        "pet_name": "Minnie",
+        "pet_photo": "ricky-kharawala-adK3Vu70DEQ-unsplash.jpg",
+        "pet_fact": "A hamster's teeth never stop growing"
     }
 ]

@@ -9,6 +9,7 @@
     --light-accent: #ebe1b6; 
     --main-accent: #c77f27;
     --second-accent: #da9945;
+    --third-accent: #bc7926;
 }
 
 /* GENERAL */
@@ -34,6 +35,11 @@ h1 {
 }
 h2 {
     color: var(--second-accent);
+    margin: 0.75em 0;
+    font-weight:900 ;
+}
+h4 {
+    color: var(--third-accent);
     margin: 0.75em 0;
     font-weight:900 ;
 }

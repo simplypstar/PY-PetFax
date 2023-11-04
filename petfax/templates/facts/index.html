@@ -10,6 +10,12 @@
 <body>
     <div class="container">
         <h1>Pet Facts</h1>
-    </div>
+        {% for fact in facts %}
+            <H4>Submitted by {{ fact.submitter }}</H4>
+            {{ fact.fact }}
+            <hr style="width:100%"; color="#bc7926">
+        {% endfor %}       
+    <a href="/pets">⟨　Go back</a>
+    </div>    
 </body>
 </html>

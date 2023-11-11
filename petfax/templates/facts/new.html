@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Pet Facts</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-</head>
-<body>
+{% extends "./base.html" %}
+{% block title %}New Pet Facts{% endblock %}
+{% block head %}
+    {{ super() }}
+{% endblock %}
+{% block content %}
     <div class="container">
         <h1>User Facts</h1>
         <div class="callout">
@@ -25,5 +22,4 @@
         </div>
         <a href="/pets">⟨　Go back</a>
     </div>
-</body>
-</html>
+{% endblock %}
